@@ -1,0 +1,27 @@
+{
+    "_comment": "ChatGPT 批量自动注册工具配置文件 (DuckMail 临时邮箱版)",
+  
+    "total_accounts": 5,
+  
+    "duckmail_api_base": "https://api.duckmail.sbs",
+    "duckmail_bearer": "",
+  
+    "proxy": "http://customer-3BtY9BEvPN-cc-US-st-NewYork-city-NewYork:AGwGv2Kt2mwMQaf@gate.ipfoxy.io:58688",
+  
+    "_proxy_pool_comment": "静态代理池，每次注册轮换使用不同代理，格式: socks5://user:pass@ip:port 或 http://ip:port",
+    "proxy_pool": [],
+  
+    "_proxy_api_comment": "代理API地址，每次注册自动请求获取新IP（推荐），返回格式: ip:port 或 http://ip:port",
+    "proxy_api": "",
+  
+    "output_file": "registered_accounts.txt",
+    "enable_oauth": true,
+    "oauth_required": true,
+    "oauth_issuer": "https://auth.openai.com",
+    "oauth_client_id": "app_EMoamEEZ73f0CkXaXp7hrann",
+    "oauth_redirect_uri": "http://localhost:1455/auth/callback",
+    "ak_file": "ak.txt",
+    "rk_file": "rk.txt",
+    "token_json_dir": "codex_tokens"
+  }
+  
